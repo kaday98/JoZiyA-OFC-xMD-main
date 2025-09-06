@@ -1,0 +1,31 @@
+{
+  "name": "JoZiyA-OFC-xMD",
+  "description": "Javascript WhatsApp bot made by ramesh sampath",
+  "logo": "https://files.catbox.moe/96u4ui.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "JoZiyA-OFC-xMD=vZ9ggDKD#U0sIIEPtEKJ39HjiGKho-t32jWvlfg15bF1v0o3hHOk",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "https://files.catbox.moe/96u4ui.jpg.",
+      "required": false
+    },
+    
+    "ALIVE_MSG": {
+      "description": "HELLOW I'am JoZiyA-OFC-xMD WA BOT.. CREAT BY RAMESH SAMPATH DISANAYAKA <ALIVE NOW>",
+      "required": false 
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
